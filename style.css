@@ -23,6 +23,8 @@ body {
 }
 
 #drag-container, #spin-container {
+  width: 250px;   /* Aumenta según lo que desees */
+  height: 350px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
