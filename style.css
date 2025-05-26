@@ -37,6 +37,10 @@ body {
 }
 
 #drag-container img, #drag-container video {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  border-radius: 12px;
+  border: 2px solid #fff3;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: absolute;
@@ -122,5 +126,10 @@ body {
   } to{
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
 }
