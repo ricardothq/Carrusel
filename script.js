@@ -2,8 +2,8 @@
 var radius = 240; 
 var autoRotate = true; 
 var rotateSpeed = -60; 
-var imgWidth = 160; 
-var imgHeight = 220; 
+var imgWidth = 170; 
+var imgHeight = 230; 
 
 
 var bgMusicURL = './Cancion.mp3';
