@@ -11,15 +11,7 @@ body {
 }
 
 body {
-    overflow: hidden;
-  display: flex;
-  background: linear-gradient(45deg, #111, #222, #111);
-  background-size: 400% 400%;
-  animation: gradientMove 10s ease infinite;
-  perspective: 1000px;
-  transform-style: preserve-3d;
-
-  /*overflow: hidden;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +19,7 @@ body {
   -webkit-perspective: 1000px;
           perspective: 1000px;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;*/
+          transform-style: preserve-3d;
 }
 
 #drag-container, #spin-container {
